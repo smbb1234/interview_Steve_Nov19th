@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "player_id": 2,
+    "action": "register",
+    "timestamp": "2024-11-17 15:30:00",
+    "details": "Details for action 1"
+  },
+  {
+    "id": 2,
+    "player_id": 3,
+    "action": "login",
+    "timestamp": "2024-11-16 15:30:00",
+    "details": "Details for action 2"
+  },
+  {
+    "id": 3,
+    "player_id": 1,
+    "action": "logout",
+    "timestamp": "2024-11-15 15:30:00",
+    "details": "Details for action 3"
+  },
+  {
+    "id": 4,
+    "player_id": 2,
+    "action": "enter_room",
+    "timestamp": "2024-11-14 15:30:00",
+    "details": "Details for action 4"
+  },
+  {
+    "id": 5,
+    "player_id": 3,
+    "action": "leave_room",
+    "timestamp": "2024-11-13 15:30:00",
+    "details": "Details for action 5"
+  },
+  {
+    "id": 6,
+    "player_id": 1,
+    "action": "join_challenge",
+    "timestamp": "2024-11-12 15:30:00",
+    "details": "Details for action 6"
+  },
+  {
+    "id": 7,
+    "player_id": 2,
+    "action": "challenge_result",
+    "timestamp": "2024-11-11 15:30:00",
+    "details": "Details for action 7"
+  },
+  {
+    "id": 8,
+    "player_id": 3,
+    "action": "register",
+    "timestamp": "2024-11-10 15:30:00",
+    "details": "Details for action 8"
+  },
+  {
+    "id": 9,
+    "player_id": 1,
+    "action": "login",
+    "timestamp": "2024-11-09 15:30:00",
+    "details": "Details for action 9"
+  },
+  {
+    "id": 10,
+    "player_id": 2,
+    "action": "logout",
+    "timestamp": "2024-11-08 15:30:00",
+    "details": "Details for action 10"
+  }
+]

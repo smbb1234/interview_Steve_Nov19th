@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "room_id": 1,
+    "date": "2024-11-18",
+    "time": "10:00 AM",
+    "player_id": 1
+  },
+  {
+    "id": 2,
+    "room_id": 2,
+    "date": "2024-11-19",
+    "time": "02:00 PM",
+    "player_id": 2
+  },
+  {
+    "id": 3,
+    "room_id": 1,
+    "date": "2024-11-20",
+    "time": "11:00 AM",
+    "player_id": 3
+  }
+]

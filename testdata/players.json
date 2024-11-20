@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "level_id": 1,
+    "others": "Extra information about Alice"
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "level_id": 2,
+    "others": "Additional details about Bob"
+  },
+  {
+    "id": 3,
+    "name": "Charlie",
+    "level_id": 1,
+    "others": "Extra information about Charlie"
+  }
+]
