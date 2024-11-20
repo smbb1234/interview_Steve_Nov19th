@@ -107,8 +107,8 @@ project-root/
 ### Steps to Run
 1. Clone the repository.
    ```bash
-   git clone <repository-url>
-   cd project-root
+   git clone https://github.com/smbb1234/interview_Steve_Nov19th.git
+   cd interview_Steve_Nov19th
    ```
 2. Build Docker image.
    ```bash
