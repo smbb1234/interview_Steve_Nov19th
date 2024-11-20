@@ -128,9 +128,10 @@ project-root/
 
 ## API Documentation
 Detailed API documentation is available in the `docs/` folder:
-- **Player Management System**: Describes player-related endpoints.
-- **Game Room Management System**: Describes room and reservation management.
-- **Endless Challenge System**: Provides details about participating in challenges.
+- **[Player Management System](/docs/Player%20Management%20SystemAPI%20Documentation.md)**: Describes player-related endpoints.
+- **[Game Room Management System](/docs/Game%20Room%20Management%20System%20API%20Documentation.md)**: Describes room and reservation management.
+- **[Endless Challenge System](/docs/Endless%20Challenge%20System%20API%20Documentation.md)**: Provides details about participating in challenges.
+- **[Game Log Collector](/docs/Game%20Log%20Collector%20API%20Documentation.md)**: Recording every action of the player.
 - **Payment Processing System(unfinished)**: Describes payment endpoints and different payment methods.
 
 ## Configuration
