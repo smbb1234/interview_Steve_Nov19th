@@ -24,13 +24,13 @@
         "id": 1,
         "name": "Alice",
         "level_id": 1,
-        "other": "Extra information about Alice"
+        "others": "Extra information about Alice"
       },
       {
         "id": 2,
         "name": "Bob",
         "level_id": 2,
-        "other": "Additional details about Bob"
+        "others": "Additional details about Bob"
       }
     ]
   }
@@ -43,12 +43,12 @@
   {
     "name": "Charlie",
     "level_id": 1,
-    "other": "Extra information about Charlie"
+    "others": "Extra information about Charlie"
   }
   ```
 - Example Request:
   ```bash
-  curl -X POST http://localhost:8080/players -H "Content-Type: application/json" -d '{"name": "Charlie", "level": {"id": 1, "name": "Beginner"}, "other": "Extra information about Charlie"}'
+  curl -X POST http://localhost:8080/players -H "Content-Type: application/json" -d '{"name": "Charlie", "level": {"id": 1, "name": "Beginner"}, "others": "Extra information about Charlie"}'
   ```
 - Example Response:
   ```json
@@ -58,7 +58,7 @@
       "id": 3,
       "name": "Charlie",
       "level_id": 1,
-      "other": "Extra information about Charlie"
+      "others": "Extra information about Charlie"
     }
   }
   ```
@@ -79,7 +79,7 @@
       "id": 1,
       "name": "Alice",
       "level_id": 1,
-      "other": "Extra information about Alice"
+      "others": "Extra information about Alice"
     }
   }
   ```
@@ -91,12 +91,12 @@
   {
     "name": "Alice Updated",
     "level_id": 2,
-    "other": "Updated information about Alice"
+    "others": "Updated information about Alice"
   }
   ```
 - Example Request:
   ```bash
-  curl -X PUT http://localhost:8080/players/1 -H "Content-Type: application/json" -d '{"name": "Alice Updated", "level": {"id": 2, "name": "Intermediate"}, "other": "Updated information about Alice"}'
+  curl -X PUT http://localhost:8080/players/1 -H "Content-Type: application/json" -d '{"name": "Alice Updated", "level": {"id": 2, "name": "Intermediate"}, "others": "Updated information about Alice"}'
   ```
 - Example Response:
   ```json
@@ -106,7 +106,7 @@
       "id": 1,
       "name": "Alice Updated",
       "level_id": 2,
-      "other": "Updated information about Alice"
+      "others": "Updated information about Alice"
     }
   }
   ```
